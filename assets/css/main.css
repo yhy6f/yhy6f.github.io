@@ -991,11 +991,12 @@ section.special, article.special {
 
 header p {
   font-family: "Roboto Slab", serif;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 400;
   letter-spacing: 0.075em;
   margin-top: -0.5em;
-  text-transform: uppercase; }
+  /* text-transform: uppercase;  */
+}
 
 header.major > :last-child {
   border-bottom: solid 3px #f56a6a;
@@ -2188,7 +2189,9 @@ button,
 /* Footer */
 #footer .copyright {
   color: #9fa3a6;
-  font-size: 0.9em; }
+  font-size: 0.9em; 
+  text-align:center
+}
   #footer .copyright a {
     color: inherit; }
 
