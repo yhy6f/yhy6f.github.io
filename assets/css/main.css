@@ -69,10 +69,31 @@ input, select, textarea {
   }
   
 #text {
-display: inline-block;
-color: #f56a6a;
-border-right: 0.1em solid #f56a6a;
-font-size:1.5em;
+  display: inline-block;
+  color: #f56a6a;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  letter-spacing: 0.075em;
+  margin-top: -0.5em;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: -0.5em;
+	width: 0.2em;
+	height: 2em;
+	background-color: #f56a6a;
+	animation: blink .9s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: #f56a6a; 
+	}
 }
 
 /* Basic */
