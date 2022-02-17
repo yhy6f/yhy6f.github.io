@@ -1,5 +1,5 @@
 // List of sentences
-var _CONTENT = [ " Data Visualization Speicalist", " Data Journalist", " Developer" ];
+var _CONTENT = [ " Data Visualization Specialist", " Data Journalist", " Developer" ];
 
 // Current sentence being processed
 var _PART = 0;
