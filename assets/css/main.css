@@ -60,6 +60,21 @@ input, select, textarea {
   -ms-appearance: none;
   appearance: none; }
 
+/* typewriter effect */
+#container {
+  margin: 0 0 0 0;
+  text-align: left;
+  height: 2.5em;
+  max-height: 2.5em;
+  }
+  
+#text {
+display: inline-block;
+color: #f56a6a;
+border-right: 0.1em solid #f56a6a;
+font-size:1.5em;
+}
+
 /* Basic */
 @-ms-viewport {
   width: device-width; }
